@@ -1,0 +1,27 @@
+.logo {
+  position: relative;
+}
+
+.logo__left,
+.logo__right {
+  position: absolute;
+  font-weight: 600;
+  color: white;
+  font-family: Arial, sans-serif;
+  text-shadow: -1px 0 #b1b1b1, 0 1px #b1b1b1, 1px 0 #b1b1b1, 0 -1px #b1b1b1;
+  transition: color 2s ease-in;
+}
+
+.logo__left {
+  font-size: 40px;
+  color: #e43131;
+  letter-spacing: -1px;
+  z-index: 10;
+}
+
+.logo__right {
+  top: -6px;
+  left: 162px;
+  font-size: 50px;
+  color: #019ed5;
+}
