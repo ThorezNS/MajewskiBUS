@@ -1,0 +1,20 @@
+@import 'variables.css';
+
+.top-bar {
+  width: 100%;
+  height: 200px;
+  position: relative;
+  padding: 1%;
+}
+
+.top-bar::after {
+  content: '';
+  width: 110%;
+  height: 260px;
+  background-color: var(--top-bar-background-color);
+  position: absolute;
+  left: -10px;
+  top: -120px;
+  transform: rotate(-2.1deg);
+  border: solid 2px var(--left-logo-color);
+}

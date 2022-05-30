@@ -27,11 +27,12 @@
   font-size: 5rem;
   color: var(--right-logo-color);
   animation: 3.5s linear 0s 1 rightLogoColor;
+  z-index: 8;
 }
 
 @keyframes leftLogoColor {
   from {
-    color: var(--header-background-color);
+    color: var(--top-bar-background-color);
   }
   to {
     color: var(--left-logo-color);
@@ -40,7 +41,7 @@
 
 @keyframes rightLogoColor {
   from {
-    color: var(--header-background-color);
+    color: var(--top-bar-background-color);
   }
   to {
     color: var(--right-logo-color);
