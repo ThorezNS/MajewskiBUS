@@ -1,12 +1,4 @@
-html {
-  font-size: 62.5%;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+@import 'variables.css';
 
 .logo {
   position: relative;
@@ -17,12 +9,13 @@ html {
   position: absolute;
   font-weight: 600;
   font-family: Arial, sans-serif;
-  text-shadow: -1px 0 #b1b1b1, 0 1px #b1b1b1, 1px 0 #b1b1b1, 0 -1px #b1b1b1;
+  text-shadow: -1px 0 var(--logo-shadow-color), 0 1px var(--logo-shadow-color),
+    1px 0 var(--logo-shadow-color), 0 -1px var(--logo-shadow-color);
 }
 
 .logo__left {
   font-size: 4rem;
-  color: #e43131;
+  color: var(--left-logo-color);
   letter-spacing: -1px;
   animation: 2s linear 0s 1 leftLogoColor;
   z-index: 10;
@@ -32,24 +25,24 @@ html {
   top: -6px;
   left: 162px;
   font-size: 5rem;
-  color: #019ed5;
+  color: var(--right-logo-color);
   animation: 3.5s linear 0s 1 rightLogoColor;
 }
 
 @keyframes leftLogoColor {
   from {
-    color: white;
+    color: var(--header-background-color);
   }
   to {
-    color: #e43131;
+    color: var(--left-logo-color);
   }
 }
 
 @keyframes rightLogoColor {
   from {
-    color: white;
+    color: var(--header-background-color);
   }
   to {
-    color: #019ed5;
+    color: var(--right-logo-color);
   }
 }

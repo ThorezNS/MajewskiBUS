@@ -1,0 +1,8 @@
+:root {
+  /* logo */
+  --left-logo-color: #e43131;
+  --right-logo-color: #019ed5;
+  --logo-shadow-color: #b1b1b1;
+  /* header */
+  --header-background-color: white;
+}
