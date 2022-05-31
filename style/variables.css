@@ -3,6 +3,9 @@
   --left-logo-color: #e43131;
   --right-logo-color: #019ed5;
   --logo-shadow-color: #cfcfcf;
-  /* top-bar */
-  --top-bar-background-color: #302e2c;
+  /* background */
+  --bar-bg-color: #302e2c;
+  --second-page-bg-color: #6e6e6e;
+  /* bottom bar */
+  --bottom-bar-height: 200px;
 }

@@ -1,5 +1,3 @@
-@import 'variables.css';
-
 .logo {
   position: relative;
 }
@@ -14,25 +12,43 @@
 }
 
 .logo__left {
-  font-size: 4rem;
-  color: var(--left-logo-color);
   letter-spacing: -1px;
-  animation: 2s linear 0s 1 leftLogoColor;
   z-index: 10;
 }
 
 .logo__right {
+  z-index: 8;
+}
+
+.logo__left--top-bar {
+  font-size: 4rem;
+  color: var(--left-logo-color);
+  animation: 2s linear 1s 1 leftLogoColor;
+}
+
+.logo__right--top-bar {
   top: -6px;
   left: 162px;
   font-size: 5rem;
   color: var(--right-logo-color);
-  animation: 3.5s linear 0s 1 rightLogoColor;
-  z-index: 8;
+  animation: 3.5s linear 1s 1 rightLogoColor;
+}
+
+.logo__left--bottom-bar {
+  font-size: 2.8rem;
+  color: var(--bar-bg-color);
+}
+
+.logo__right--bottom-bar {
+  top: -8px;
+  left: 111px;
+  font-size: 4rem;
+  color: var(--bar-bg-color);
 }
 
 @keyframes leftLogoColor {
   from {
-    color: var(--top-bar-background-color);
+    color: var(--bar-bg-color);
   }
   to {
     color: var(--left-logo-color);
@@ -41,7 +57,7 @@
 
 @keyframes rightLogoColor {
   from {
-    color: var(--top-bar-background-color);
+    color: var(--bar-bg-color);
   }
   to {
     color: var(--right-logo-color);

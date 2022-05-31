@@ -1,6 +1,8 @@
-@import 'logo.css';
+@import 'variables.css';
 @import 'topBar.css';
+@import 'logo.css';
 @import 'containers.css';
+@import 'bottomBar.css';
 
 * {
   margin: 0;
