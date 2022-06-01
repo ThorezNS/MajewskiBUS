@@ -6,6 +6,8 @@
   /* background */
   --bar-bg-color: #302e2c;
   --second-page-bg-color: #6e6e6e;
+  /* top bar */
+  --top-bar-height: 20vh;
   /* bottom bar */
-  --bottom-bar-height: 200px;
+  --bottom-bar-height: 40vh;
 }

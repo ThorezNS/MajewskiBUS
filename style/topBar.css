@@ -1,6 +1,6 @@
 .top-bar {
   width: 100%;
-  height: 200px;
+  height: var(--top-bar-height);
   position: relative;
   padding: 1%;
 }
@@ -8,11 +8,12 @@
 .top-bar::after {
   content: '';
   width: 110%;
-  height: 260px;
+  height: calc(var(--top-bar-height) + 8vh);
   background-color: var(--bar-bg-color);
   position: absolute;
   left: -10px;
   top: -120px;
   transform: rotate(-2.1deg);
   border: solid 2px var(--left-logo-color);
+  z-index: 5;
 }

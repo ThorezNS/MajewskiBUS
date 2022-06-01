@@ -1,0 +1,14 @@
+.bus-image {
+  width: 50vw;
+  height: calc(100vh - 100px);
+  position: absolute;
+  top: 100px;
+  right: 0;
+  -webkit-box-shadow: inset 15px -18px 68px 26px rgba(227, 227, 227, 1);
+  -moz-box-shadow: inset 15px -18px 68px 26px rgba(227, 227, 227, 1);
+  box-shadow: inset 15px -18px 68px 26px rgba(227, 227, 227, 1);
+  background: url('../assets/majewskibuspicture.png') no-repeat;
+  background-size: cover;
+  opacity: 0.2;
+  z-index: 1;
+}

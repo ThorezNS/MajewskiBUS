@@ -3,6 +3,8 @@
 @import 'logo.css';
 @import 'containers.css';
 @import 'bottomBar.css';
+@import 'busImage.css';
+@import 'busInteriorImage.css';
 
 * {
   margin: 0;
