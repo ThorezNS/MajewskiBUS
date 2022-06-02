@@ -1,0 +1,23 @@
+.pfr {
+  width: 90%;
+  height: 22%;
+  display: flex;
+  margin: 2% auto 0.7% auto;
+  align-items: center;
+}
+
+.pfr__logo {
+  width: 100px;
+  height: 40px;
+  margin-right: 20px;
+}
+
+.pfr__text {
+  font-size: 1.7rem;
+  color: var(--logo-shadow-color);
+}
+
+.pfr__text span {
+  font-size: 2rem;
+  color: #fff;
+}
