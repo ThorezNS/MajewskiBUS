@@ -5,7 +5,6 @@
 @import 'bottomBar.css';
 @import 'busImage.css';
 @import 'busInteriorImage.css';
-@import 'pfr.css';
 /* fonts */
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2&display=swap');
 
@@ -23,4 +22,9 @@ body {
   font-family: 'Baloo Da 2', cursive;
   display: flex;
   justify-content: center;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
 }

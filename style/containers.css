@@ -5,17 +5,26 @@
   overflow: hidden;
 }
 
-.first-page-container {
-  width: 100%;
-  height: 100vh;
-  position: relative;
-  background-image: url('../assets/subtle_orange_emboss.webp');
-}
-
+.first-page-container,
 .second-page-container {
   width: 100%;
   height: 100vh;
   position: relative;
+}
+
+.first-page-container {
+  background-image: url('../assets/subtle_orange_emboss.webp');
+}
+
+.second-page-container {
   background-image: url('../assets/subtle_orange_emboss.webp');
   margin-bottom: var(--bottom-bar-height);
+}
+
+.contact-container {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
