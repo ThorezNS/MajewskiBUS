@@ -2,6 +2,7 @@
   width: 100%;
   height: var(--top-bar-height);
   position: relative;
+  display: flex;
   padding: 1%;
 }
 

@@ -1,0 +1,19 @@
+.contact {
+  margin-left: 5%;
+  color: var(--logo-shadow-color);
+  font-size: 2rem;
+}
+
+.contact__item {
+  display: flex;
+  align-items: center;
+}
+
+.contact__item i {
+  width: 30px;
+  color: #fff;
+}
+
+.contact__item:hover i {
+  color: var(--right-logo-color);
+}

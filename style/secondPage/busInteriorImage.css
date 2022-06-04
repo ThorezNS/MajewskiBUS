@@ -3,8 +3,8 @@
   height: calc(100vh - var(--bottom-bar-height));
   position: absolute;
   top: 0;
-  background: url('../assets/pexels-steve-aksnes-3723002.jpg') no-repeat center
-    center;
+  background: url('../../assets/pexels-steve-aksnes-3723002.jpg') no-repeat
+    center center;
   background-size: cover;
   opacity: 0.7;
 }
