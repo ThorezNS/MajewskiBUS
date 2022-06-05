@@ -5,9 +5,10 @@
   --logo-shadow-color: #cfcfcf;
   /* background */
   --bar-bg-color: #302e2c;
-  --second-page-bg-color: #6e6e6e;
   /* top bar */
-  --top-bar-height: 12vh;
+  --top-bar-height: 18vh;
   /* bottom bar */
   --bottom-bar-height: 50vh;
+  /* title */
+  --title-lighter-color: #5a5754;
 }

@@ -1,8 +1,8 @@
 .bus-image {
   width: 50vw;
-  height: calc(100vh - 10px);
+  height: calc(100vh - var(--top-bar-height));
   position: absolute;
-  top: 10px;
+  top: var(--top-bar-height);
   right: 0;
   -webkit-box-shadow: inset 15px -18px 68px 26px rgba(227, 227, 227, 1);
   -moz-box-shadow: inset 15px -18px 68px 26px rgba(227, 227, 227, 1);

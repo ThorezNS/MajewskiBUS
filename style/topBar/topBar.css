@@ -3,18 +3,21 @@
   height: var(--top-bar-height);
   position: relative;
   display: flex;
-  padding: 1%;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: rgb(48, 46, 44, 0.3);
+  padding: 1% 1% 0 1%;
 }
 
 .top-bar::after {
   content: '';
   width: 110%;
-  height: calc(var(--top-bar-height) + 8vh);
+  height: calc(var(--top-bar-height) + 2vh);
   background-color: var(--bar-bg-color);
   position: absolute;
   left: -10px;
   top: -120px;
-  transform: rotate(-2.1deg);
+  transform: rotate(-3deg);
   border: solid 2px var(--left-logo-color);
   z-index: 5;
 }

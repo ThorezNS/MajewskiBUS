@@ -2,11 +2,12 @@
 @import 'containers.css';
 @import 'topBar/topBar.css';
 @import 'topBar/logo.css';
+@import 'topBar/title.css';
 @import 'bottomBar/bottomBar.css';
 @import 'bottomBar/contactSection.css';
 @import 'bottomBar/PFRinfo.css';
-@import 'firstPage/busImage.css';
-@import 'secondPage/busInteriorImage.css';
+@import 'firstScreen/busImage.css';
+@import 'secondScreen/busInteriorImage.css';
 /* fonts */
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Alatsi&display=swap');
