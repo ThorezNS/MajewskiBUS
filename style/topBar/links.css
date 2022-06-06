@@ -1,0 +1,39 @@
+.links {
+  width: 30%;
+  display: flex;
+  align-items: flex-start;
+  font-size: 2.8rem;
+  font-family: 'Genos', sans-serif;
+  letter-spacing: 1px;
+  color: var(--logo-shadow-color);
+  z-index: 10;
+}
+
+.links ul a {
+  display: block;
+  position: relative;
+  margin: 0 30px 0 30px;
+}
+
+.links ul:nth-child(1) {
+  /* margin-top: 4px; */
+}
+
+.links ul:nth-child(2) {
+  /* margin-top: -4px; */
+}
+
+.links__border {
+  content: '';
+  width: 0;
+  height: 2px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: var(--left-logo-color);
+  transition: width 0.4s;
+}
+
+.links ul a:hover .links__border {
+  width: 100%;
+}
