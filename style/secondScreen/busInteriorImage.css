@@ -1,6 +1,6 @@
 .bus-interior-image {
   width: 100vw;
-  height: calc(100vh - var(--bottom-bar-height));
+  height: calc(100% - var(--bottom-bar-height));
   position: absolute;
   top: 0;
   background: url('../../assets/pexels-steve-aksnes-3723002.jpg') no-repeat

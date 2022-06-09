@@ -1,7 +1,7 @@
 .pfr {
   width: 90%;
-  height: 20%;
   display: flex;
+  flex-direction: row;
   margin: 2% auto 1.5% auto;
   align-items: center;
 }
@@ -20,4 +20,37 @@
 .pfr__text span {
   font-size: 2rem;
   color: #fff;
+}
+
+@media screen and (max-width: 962px) {
+  .pfr {
+    width: 96%;
+  }
+  .pfr__text {
+    font-size: 1.5rem;
+  }
+
+  .pfr__text span {
+    font-size: 1.8rem;
+  }
+
+  .pfr__logo {
+    width: 90px;
+    height: 32px;
+    margin: 0 20px 10px 0;
+  }
+}
+
+@media screen and (max-width: 832px) {
+  .pfr {
+    flex-wrap: wrap;
+  }
+
+  .pfr__text {
+    font-size: 1.3rem;
+  }
+
+  .pfr__text span {
+    font-size: 1.6rem;
+  }
 }

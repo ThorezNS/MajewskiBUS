@@ -1,6 +1,6 @@
 .bus-image {
-  width: 50vw;
-  height: calc(100vh - var(--top-bar-height));
+  width: 50%;
+  height: calc(100% - var(--top-bar-height));
   position: absolute;
   top: var(--top-bar-height);
   right: 0;
@@ -11,4 +11,10 @@
   background-size: cover;
   opacity: 0.2;
   z-index: 1;
+}
+
+@media screen and (max-width: 686px) {
+  .bus-image {
+    top: calc(var(--top-bar-height) + 30px);
+  }
 }

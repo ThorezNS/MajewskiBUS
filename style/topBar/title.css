@@ -1,9 +1,9 @@
 .title {
-  width: 50%;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
   justify-content: flex-end;
+  margin-right: 1.5%;
   padding-bottom: 1%;
   font-family: 'Alatsi', sans-serif;
   font-size: 3.1rem;
@@ -22,4 +22,32 @@
   font-size: 2.1rem;
   letter-spacing: -1px;
   color: var(--title-lighter-color);
+}
+
+@media screen and (max-width: 988px) {
+  .title {
+    font-size: 2.9rem;
+  }
+}
+
+@media screen and (max-width: 882px) {
+  .title {
+    font-size: 2.7rem;
+  }
+}
+
+@media screen and (max-width: 686px) {
+  .title__lower-line {
+    margin-right: 0;
+  }
+
+  .title {
+    font-size: 2.3rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .title {
+    font-size: 2rem;
+  }
 }
