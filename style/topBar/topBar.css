@@ -24,15 +24,15 @@
 @media screen and (max-width: 686px) {
   .top-bar {
     flex-wrap: wrap;
-    height: calc(var(--top-bar-height) + 30px);
+    height: calc(var(--top-bar-height) + 15px);
   }
   .top-bar::after {
-    width: 400%;
+    width: 300%;
   }
 }
 
 @media screen and (max-width: 400px) {
   .top-bar::after {
-    width: 450%;
+    width: 500%;
   }
 }

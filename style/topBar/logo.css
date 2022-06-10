@@ -65,3 +65,14 @@
     color: var(--right-logo-color);
   }
 }
+
+@media screen and (max-width: 686px) {
+  .logo__left--top-bar {
+    font-size: 3.5rem;
+  }
+  .logo__right--top-bar {
+    top: -3px;
+    left: 141px;
+    font-size: 4rem;
+  }
+}

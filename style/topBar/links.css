@@ -1,7 +1,7 @@
 .links {
   max-height: 30px;
   display: flex;
-  gap: 3%;
+  gap: 6%;
   margin: -5px 1.5% 0 20%;
   color: var(--logo-shadow-color);
   z-index: 10;
@@ -46,7 +46,7 @@
 @media screen and (max-width: 882px) {
   .links {
     margin-left: 30%;
-    gap: 5%;
+    gap: 10%;
   }
 
   .links ul a {
@@ -56,8 +56,10 @@
 
 @media screen and (max-width: 686px) {
   .links {
-    justify-content: flex-end;
-    margin-top: -10%;
+    justify-content: flex-start;
+    margin-left: 0;
+    margin-top: -30px;
+    gap: 6%;
   }
   .links ul a {
     letter-spacing: 0;
