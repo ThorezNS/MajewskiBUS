@@ -16,7 +16,7 @@
 }
 
 .links ul a::first-letter {
-  color: #fff;
+  color: var(--white);
 }
 
 .links__border {
