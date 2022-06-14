@@ -44,7 +44,6 @@
   position: absolute;
   top: 5px;
   left: -30px;
-  /* transform: translate(0, -50%); */
   font-family: 'Font Awesome 5 Free';
   content: '\f0da';
   font-weight: 900;
@@ -52,4 +51,33 @@
 
 .popup p {
   margin-bottom: 2%;
+}
+
+@media screen and (max-width: 988px) {
+  .popup {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 686px) {
+  .popup {
+    font-size: 1.6rem;
+    width: 95%;
+  }
+  .popup__title {
+    margin-top: 5%;
+  }
+  .popup p {
+    margin-bottom: 3%;
+  }
+  .popup__button {
+    top: 0.5%;
+    right: 2.5%;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .popup__title {
+    margin-top: 14%;
+  }
 }
